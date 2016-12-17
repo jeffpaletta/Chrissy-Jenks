@@ -1,0 +1,237 @@
+.changetext {
+  width: auto;
+  line-height: 150px;
+/*   color: #fff; */
+    text-transform:uppercase;
+}
+
+.changetext .visible {
+  float: left;
+  font-weight: 600;
+  overflow: hidden;
+  height: 150px;
+}
+
+.changetext p {
+  font-weight: 600;
+  display: inline;
+  float: left;
+  margin: 0 25px 0 0;
+/*     font-size: 100px; */
+  line-height: 150px;
+}
+
+.changetext ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  list-style: none;
+  animation: 10s ease 0s normal none infinite change;
+  -webkit-animation: 10s ease 0s normal none infinite change;
+  -moz-animation: 10s ease 0s normal none infinite change;
+  -o-animation: 10s ease 0s normal none infinite change;
+}
+
+.changetext ul li {
+    font-size: 72px;
+    text-transform:uppercase;
+  line-height: 150px;
+  margin: 0;
+}
+
+
+@media(max-width:1150px) {
+    
+    .changetext p {
+      line-height: 100px;
+    }
+    
+}
+
+@media(max-width:790px) {
+    
+    .changetext p {
+        font-size: 70px;
+        line-height: 30px;
+    }
+    
+    .changetext ul li {
+        font-size: 100px;
+    }
+    
+}
+
+
+
+
+/**********************/
+/*  THREE LIST ITEMS  */
+/**********************/
+
+
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes change {
+  0% {
+    margin-top: 0;
+  }
+  15% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -150px;
+  }
+  40% {
+    margin-top: -150px;
+  }
+  50% {
+    margin-top: -300px;
+  }
+  65% {
+    margin-top: -300px;
+  }
+  75% {
+    margin-top: -150px;
+  }
+  85% {
+    margin-top: -150px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+@keyframes change {
+  0% {
+    margin-top: 0;
+  }
+  30% {
+    margin-top: 0;
+  }
+  33% {
+    margin-top: -150px;
+  }
+  65% {
+    margin-top: -150px;
+  }
+  68% {
+    margin-top: -300px;
+  }
+  97% {
+    margin-top: -300px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+
+
+
+/*********************/
+/*  FOUR LIST ITEMS  */
+/*********************/
+
+
+/*
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes change {
+  0% {
+    margin-top: 0;
+  }
+  15% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -150px;
+  }
+  40% {
+    margin-top: -150px;
+  }
+  50% {
+    margin-top: -300px;
+  }
+  65% {
+    margin-top: -300px;
+  }
+  75% {
+    margin-top: -450px;
+  }
+  85% {
+    margin-top: -450px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+@keyframes change {
+  0% {
+    margin-top: 0;
+  }
+  22% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -150px;
+  }
+  47% {
+    margin-top: -150px;
+  }
+  50% {
+    margin-top: -300px;
+  }
+  72% {
+    margin-top: -300px;
+  }
+  75% {
+    margin-top: -450px;
+  }
+  97% {
+    margin-top: -450px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+*/
+
