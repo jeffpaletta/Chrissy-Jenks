@@ -1,0 +1,610 @@
+/* layouts.css by Jeffrey Paletta — 2016 */
+
+
+
+
+
+
+
+/*************/
+/*			 */
+/*   INDEX   */
+/*			 */
+/*************/
+
+
+section#index-hero {
+	margin-top: 14vw !important;
+	margin-left: 23vw !important;
+}
+
+div#index-wrapper {
+	padding-top: 15vw !important;
+}
+
+
+
+
+div#weddings-thumb {
+	margin-top: 25vw !important;
+	margin-left: -5vw !important;
+}
+
+div#portraits-thumb {
+	margin-left: -4vw !important;
+}
+
+div#home-portrait-caption {
+	margin-bottom: 20% !important;
+}
+
+div#fashion-thumb {
+	margin-top: 15vw !important;
+	margin-left: 3vw !important;
+}
+
+div#fashion-thumb-caption {
+	margin-top: 10% !important;
+}
+
+div#children-thumb {
+	margin-top: -11vw !important;
+}
+
+div#food-thumb {
+	margin-top: 10vw !important;
+	margin-left: -3vw !important;
+}
+
+div#food-thumb-caption {
+	margin-right: 8%;
+}
+
+div#seniors-thumb {
+	margin-top: 10vw !important;
+	margin-left: -6vw !important;
+}
+
+div#seniors-thumb-caption {
+	margin-top: -8vw !important;
+}
+
+div#products-thumb {
+	margin-top: -10vw !important;
+	margin-left: 30vw !important;
+	margin-top: 150px !important;
+	padding-left: 150px !important;
+}
+
+
+
+
+
+
+
+
+
+/*****************/
+/*			     */
+/*   PORTRAITS   */
+/*			     */
+/*****************/
+
+
+section.portraits-hero {
+	margin-top: 8vw !important;
+	margin-left: 1vw !important;
+}
+
+img#portraits-hero-image {
+	padding-right: 190px !important;
+}
+
+div#portraits-hero-caption {
+	width: 60% !important;
+	left: 60% !important;
+	margin-top: 10% !important;
+}
+
+h5#portraits-hero-h5 {
+	text-align: left !important;
+	padding-left: 0px !important;
+}
+
+div#creative-anchor {
+	padding-top: 16vw !important;
+	text-align: center !important;
+}
+
+div#creative-wrapper {
+	margin-top: 10vw !important;
+}
+
+div#portraits-creative-4 {
+	margin-top: 12vw !important
+}
+
+div#portraits-creative-5 {
+	margin-top: 12vw !important;
+	margin-left: 2vw !important;
+}
+
+div#portraits-creative-6 {
+	margin-top: 2vw !important;
+	margin-left: 2vw !important;
+}
+
+div#creative-7 {
+	margin-top: 9vw !important;
+	margin-left: 2vw !important;
+}
+
+div#creative-8 {
+	margin-top: 6vw !important;
+}
+
+div#creative-10 {
+	margin-top: 12vw !important;
+	margin-left: 4vw !important;
+}
+
+div#creative-11 {
+	margin-top: 8vw !important;
+}
+
+div#creative-12 {
+	margin-top: 8vw !important;
+	margin-left: 5vw !important;
+}
+
+div#creative-13 {
+	margin-left: 2vw !important;
+}
+
+
+
+div#family-anchor {
+	padding-top: 16vw !important;
+	text-align: center !important;
+}
+
+div.portrait-wrappers {
+	margin-top: 14vw !important;
+}
+
+div#family-4 {
+	margin-top: 12vw !important;
+}
+
+div#family-5 {
+	margin-top: 12vw !important;
+	margin-left: 2vw !important;
+}
+
+div#family-6 {
+	margin-top: 2vw !important;
+	margin-left: 2vw !important;
+}
+
+div#family-7 {
+	margin-top: 9vw !important;
+	margin-left: 2vw !important;
+}
+
+div#family-8 {
+	margin-top: 6vw !important;
+	margin-left: 16vw !important;
+}
+
+div#graduates-anchor {
+	padding-top: 16vw !important;
+	padding-bottom: 10vw !important;
+	text-align: center !important;
+}
+
+div#grad-4 {
+	margin-top: 12vw !important;
+}
+
+div#grad-5 {
+	margin-top: 12vw !important;
+	margin-left: 2vw !important;
+}
+
+div#grad-6 {
+	margin-top: 2vw !important;
+	margin-left: 2vw !important;
+}
+
+div#grad-7 {
+	margin-top: 9vw !important;
+	margin-left: 2vw !important;
+}
+
+div#lifestyle-anchor {
+	padding-top: 16vw !important;
+	text-align: center !important;
+	padding-bottom: 10vw !important;
+}
+
+div#life-4 {
+	margin-top: 12vw !important;
+}
+
+div#life-5 {
+	margin-top: 12vw !important;
+	margin-left: 2vw !important;
+}
+
+div#life-6 {
+	margin-top: 2vw !important;
+	margin-left: 2vw !important;
+}
+
+div#life-7 {
+	margin-top: 9vw !important;
+	margin-left: 2vw !important;
+}
+
+div#life-8 {
+	margin-top: 9vw !important;
+	margin-left: 2vw !important;
+}
+
+
+div.footNav {
+	margin-top: 20vw !important;
+	padding-bottom: 60px !important;
+	width: 500px !important;
+	padding-right: 10% !important;
+}
+
+footer.backFooter {
+	margin-top: 2vw !important;
+}
+
+a.backtotop {
+	text-align: center !important;
+	left: 51% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************/
+/*			    */
+/*   WEDDINGS   */
+/*			    */
+/****************/
+
+
+header.weddings-header {
+	padding-bottom: 10vw !important;
+}
+
+section.weddings-hero {
+	margin-top: 7vw !important;
+}
+
+img#weddings-hero-image {
+	padding-right: 90px !important;
+}
+
+div#weddings-hero-caption {
+	width: 60% !important;
+	left: 0 !important;
+	margin-top: 5% !important;
+}
+
+h5#weddings-hero-title {
+	padding-left: 41% !important;
+	text-align: left !important;
+}
+
+div#weddings-anchor {
+	padding-top: 10vw !important;
+	text-align: center !important;
+}
+
+div#weddings-wrapper {
+	margin-top: 14vw !important;
+}
+
+div#wed-4 {
+	margin-top: 5vw !important;
+	margin-left: 5vw !important;
+}
+
+div#wed-6 {
+	margin-top: 7vw !important;
+	margin-left: 4vw !important;
+}
+
+div#wed-7 {
+	margin-top: 4vw !important;
+	margin-left: 5vw !important;
+}
+
+div#wed-9 {
+	margin-top: 8vw !important;
+	margin-left: 8vw !important;
+}
+
+div#wed-11 {
+	padding-top: 80px !important;
+	padding-left: 70px !important;
+}
+
+div#wed-13 {
+	padding-top: 6vw !important;
+}
+
+div#wed-14 {
+	margin-left: 8vw !important;
+}
+
+div#wed-16 {
+	margin-top: 4vw !important;
+	margin-left: 6vw !important;
+}
+
+div#wed-17 {
+	margin-top: 5vw !important;
+}
+
+div#wed-18 {
+	margin-top: 7vw !important;
+	margin-left: 6vw !important;
+}
+
+div#wed-19 {
+	margin-top: 12vw !important;
+}
+
+div#wed-20 {
+	margin-left: 3vw !important;
+}
+
+div#wed-21 {
+	margin-left: 6vw !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************/
+/*			    */
+/*   FINE ART   */
+/*			    */
+/****************/
+
+
+section.art-hero {
+	margin-top: 3vw !important;
+	margin-left: 1vw !important;
+}
+
+img#art-hero-image {
+	padding-right: 190px !important;
+}
+
+div#art-hero-caption {
+	width: 60% !important;
+	left: 6.5% !important;
+	margin-top: 37.5% !important;
+}
+
+h5#art-hero-title {
+	padding-left: 10px !important;
+	text-align: left !important;
+}
+
+div#art-anchor {
+	padding-top: 18vw !important;
+	text-align: center !important;
+}
+
+div#art-wrapper {
+	margin-top: 10vw !important;
+}
+
+div#art-4 {
+	margin-top: 12vw !important;
+/* 	margin-left: vw !important; */
+}
+
+div#art-5 {
+	margin-top: 12vw !important;
+	margin-left: 2vw !important;
+}
+
+div#art-6 {
+	margin-top: 2vw !important;
+	margin-left: 2vw !important;
+}
+
+div#art-7 {
+	margin-top: 9vw !important;
+	margin-left: 2vw !important;
+}
+
+div#art-8 {
+	margin-top: 6vw !important;
+	margin-left: 16vw !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************/
+/*			  */
+/*   STUDIO   */
+/*		 	  */
+/**************/
+
+
+
+section.studio-hero {
+	margin-top: 6vw !important;
+}
+
+div#studio-hero-caption {
+	width: 60% !important;
+	left: 56% !important;
+	margin-top: 5% !important;
+}
+
+h5#studio-hero-title {
+	padding-left: 10px !important;
+	text-align: left !important;
+}
+
+div#studio-anchor {
+	padding-top: 16vw !important;
+	text-align: center !important;
+}
+
+div#studio-wrapper {
+	margin-top: 10vw !important;
+}
+
+div#studio-5 {
+	margin-top: 12vw !important;
+	margin-left: 2vw !important;
+}
+
+div#studio-6 {
+	margin-top: 2vw !important;
+	margin-left: 2vw !important;
+}
+
+div#studio-7 {
+	margin-top: 9vw !important;
+	margin-left: 2vw !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**************/
+/*			  */
+/*   THESIS   */
+/*			  */
+/**************/
+
+
+
+section.thesis-hero {
+	margin-top: 6vw !important;
+}
+
+div#thesis-hero-caption {
+	width: 60% !important;
+}
+
+div#thesis-caption {
+	padding-top: 4vw !important;
+	padding-bottom: 10vw !important;
+}
+
+div#thesis-wrapper {
+	margin-top: 20vw !important;
+}
+
+div#thesis-1 {
+	margin-bottom: 0px !important;
+}
+
+div#thesis-2 {
+	margin-top: -1vw !important;
+	padding-left: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+div#thesis-3 {
+/* 	margin-top: -5vw !important; */
+}
+
+div#thesis-6 {
+	margin-top: 5vw !important;
+}
+
+div#thesis-5 {
+	margin-top: 4vw !important;
+	padding-left: 100px !important;
+}
+
+div#thesis-9 {
+	margin-top: 5vw !important;
+	padding-left: 80px !important;
+}
+
+
+
+
+
+/***************/
+/*			   */
+/*   CONTACT   */
+/*			   */
+/***************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

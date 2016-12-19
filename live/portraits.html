@@ -5,19 +5,17 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
 <head>
 
-<!-- DEFAULT META TAGS -->
+<!-- METADATA -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Portraits :: Chrissy Jenks</title>
-<!-- DEFAULT META TAGS -->
+<title>Chrissy Jenks :: Portraits</title>
 
 <!-- FONTS -->
 <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Maven+Pro:400,700,900" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet" type="text/css">
-<!-- FONTS -->
 
 <!-- CSS -->
 <link rel="stylesheet" id="default-style-css"  href="css/style.css" type="text/css" media="all" />
@@ -25,11 +23,10 @@
 <link rel="stylesheet" id="fontawesome-style-css" href="css/font-awesome.min.css" type="text/css" media="all" />
 <link rel="stylesheet" id="ionic-icons-style-css" href="css/ionicons.css" type="text/css" media="all" />
 <link rel="stylesheet" id="mqueries-style-css"  href="css/mqueries.css" type="text/css" media="all" />
-<!-- CSS -->
+<link rel="stylesheet" id="layout-style-css"  href="css/layouts.css" type="text/css" media="all" />
 
 <!-- FAVICON -->
 <!-- <link rel="shortcut icon" href="assets/uploads/favicon.png"/> -->
-<!-- FAVICON -->
 
 </head>
 
@@ -38,13 +35,17 @@
 <!-- PAGELOADER -->
 <div id="page-loader">
 	<div class="page-loader-inner">
-		<div class="loader"><strong>Loading</strong></div>
+		<div class="loader"><strong>One Sec</strong></div>
 	</div>
 </div>
-<!-- PAGELOADER -->
+
+
+
 
 <!-- PAGE CONTENT -->
 <div id="page-content">
+
+
 
 	<!-- HEADER -->
 	<header id="header">        
@@ -78,7 +79,7 @@
                     </ul>
             	</nav>
                 
-<!--                 <a href="#" class="open-share">Share</a> -->
+                <a href="#" class="open-share">Share</a>
             </div>
             
              <div id="header-share">
@@ -101,17 +102,17 @@
 	   
 	    
     <!-- HERO  -->
-	<section id="hero" class="hero-auto" style="margin-top: 8vw !important; margin-left: 1vw !important;">
+	<section id="hero" class="hero-auto portraits-hero">
     	<div class="page-title wrapper">
         
         	<div id="wolf-title" class="wolf-grid clearfix">
                 <div class="wolf-item wfull wright wolf-text" data-speed="2">
 					<div class="wolf-item-inner" style="float: left !important;">
-						<div class="wolf-media"><img style="opacity: 0.8 !important; padding-right: 190px !important;" src="img/portraits/hero1.jpg" alt="Studio Image" /></div>
+						<div class="wolf-media"><img id="portraits-hero-image" src="img/portraits/hero1.jpg" alt="Studio Image" /></div>
 						
-						<div class="wolf-caption ctop" style="width:60%; left: 60% !important; margin-top: 10% !important;">
+						<div class="wolf-caption ctop" id="portraits-hero-caption">
                             <h1 style="text-align: left !important;"><strong>Portrait</strong></h1>
-                            <h5 class="alttitle" style="text-align: left !important; padding-left: 10px !important;">Photography</h5>
+                            <h5 class="alttitle" id="portraits-hero-h5">Photography</h5>
 							
 						</div>
 					</div>
@@ -130,21 +131,14 @@
 	<section id="page-body" class="nopadding">
     	
 		<div class="wrapper-mini" id="creative-anchor" 
-		style="
-		padding-top: 16vw !important; 
-		text-align: center !important;
-		">
-            <h6><strong>— Creative —</strong></h6>
+            <h6><strong>Creative</strong></h6>
 			<p></p>
 		</div> 
 		
 		
 		
         
-		<div class="wrapper" 
-		style="
-			margin-top: 10vw !important;
-		">
+		<div class="wrapper" id="creative-wrapper">
             <div class="wolf-grid clearfix" data-randomhorizontaloffset="true" data-mouseparallax="true">
 				
 				
@@ -183,9 +177,8 @@
             	
                 
 
-                <div class="wolf-item wfull" 
+                <div class="wolf-item wfull" id="portraits-creative-4" 
 	            style="
-	            	margin-top: 12vw !important; 
 					opacity: 0.85 !important;
 				">
                 	<div class="wolf-item-inner">
@@ -196,11 +189,9 @@
             	
             	
                 
-                <div class="wolf-item wfull " 
+                <div class="wolf-item wfull " id="portraits-creative-5"
 	            style="
 		            opacity: 0.85 !important;
-					margin-top: 12vw !important;
-			        margin-left: 2vw !important;
 			    ">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/portraits/creative-5.jpg" alt="Creative Portrait Image"></div>
@@ -209,11 +200,9 @@
                 
                 
                 
-                <div class="wolf-item wfull wmiddle" 
+                <div class="wolf-item wfull wmiddle"  id="portraits-creative-6"
 	            style="
 		            opacity: 0.85 !important;
-					margin-top: 2vw !important;
-			        margin-left: 2vw !important;
 			    ">    
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/portraits/creative-6.jpg" alt="Creative Portrait Image"></div>
@@ -222,11 +211,9 @@
             	
             	
                 
-                <div class="wolf-item wfull wmiddle" 
+                <div class="wolf-item wfull wmiddle" id="creative-7"
 	            style="
 		            opacity: 0.85 !important;
-		        	margin-top: 9vw !important;
-					margin-left: 2vw !important;    
 				">
                 	
                 	<div class="wolf-item-inner">
@@ -235,14 +222,12 @@
             	</div>  
             	
 
-            	<div class="wolf-item " 
+            	<div class="wolf-item " id="creative-8" 
 	            style="
-		            margin-top: 6vw !important; 
-			        margin-left: 16vw !important;
 				    opacity: 0.85 !important;
 				">
                 	<div class="wolf-item-inner">
-						<div class="wolf-media portfolio-media"><img src="img/portraits/creative-8.jpg" alt="Creative Portrait Image"></div>
+						<div class="wolf-media portfolio-media"><img src="img/portraits/creative-8b.jpg" alt="Creative Portrait Image"></div>
 					</div> 
             	</div>
             	
@@ -251,21 +236,21 @@
 	            style="opacity: 0.85 !important;">
 	                
                 	<div class="wolf-item-inner">
-						<div class="wolf-media portfolio-media"><img src="img/portraits/creative-9.jpg" alt="Creative Portrait Image"></div>
+						<div class="wolf-media portfolio-media"><img src="img/portraits/creative-9b.jpg" alt="Creative Portrait Image"></div>
 					</div> 
             	</div>
             	
             	
-            	<div class="wolf-item wfull"
-	            style="opacity: 0.85 !important; margin-top: 5vw !important;">
+            	<div class="wolf-item wfull" id="creative-10"
+	            style="opacity: 0.85 !important;">
 	                
                 	<div class="wolf-item-inner">
-						<div class="wolf-media portfolio-media"><img src="img/portraits/creative-10.jpg" alt="Creative Portrait Image"></div>
+						<div class="wolf-media portfolio-media"><img src="img/portraits/creative-10c.jpg" alt="Creative Portrait Image"></div>
 					</div> 
             	</div>
             	
             	
-            	<div class="wolf-item wfull"
+            	<div class="wolf-item wfull" id="creative-11"
 	            style="opacity: 0.85 !important;">
 	                
                 	<div class="wolf-item-inner">
@@ -274,7 +259,7 @@
             	</div>
             	
             	
-            	<div class="wolf-item wfull"
+            	<div class="wolf-item wfull" id="creative-12"
 	            style="opacity: 0.85 !important;">
 	                
                 	<div class="wolf-item-inner">
@@ -283,7 +268,7 @@
             	</div>
             	
             	
-            	<div class="wolf-item wfull"
+            	<div class="wolf-item wfull" id="creative-13"
 	            style="opacity: 0.85 !important;">
 	                
                 	<div class="wolf-item-inner">
@@ -297,21 +282,14 @@
             
         
         
-        <div class="wrapper-mini" id="family-anchor" 
-		style="
-		padding-top: 16vw !important; 
-		text-align: center !important;
-		">
+        <div class="wrapper-mini" id="family-anchor">
             <h6><strong>Family</strong></h6>
 			<p></p>
 		</div> 
 		
 		
 		
-		<div class="wrapper" 
-		style="
-			margin-top: 10vw !important;
-		">
+		<div class="wrapper portrait-wrappers">
             <div class="wolf-grid clearfix" data-randomhorizontaloffset="true" data-mouseparallax="true">
 				
 				
@@ -350,9 +328,8 @@
             	
                 
 
-                <div class="wolf-item wfull" 
+                <div class="wolf-item wfull" id="family-4"
 	            style="
-	            	margin-top: 12vw !important; 
 					opacity: 0.85 !important;
 				">
                 	<div class="wolf-item-inner">
@@ -363,11 +340,9 @@
             	
             	
                 
-                <div class="wolf-item wfull " 
+                <div class="wolf-item wfull " id="family-5" 
 	            style="
 		            opacity: 0.85 !important;
-					margin-top: 12vw !important;
-			        margin-left: 2vw !important;
 			    ">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/portraits/family-5.jpg" alt="Family Portrait Image"></div>
@@ -376,11 +351,9 @@
                 
                 
                 
-                <div class="wolf-item wfull wmiddle" 
+                <div class="wolf-item wfull wmiddle" id="family-6" 
 	            style="
 		            opacity: 0.85 !important;
-					margin-top: 2vw !important;
-			        margin-left: 2vw !important;
 			    ">    
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/portraits/family-6.jpg" alt="Family Portrait Image"></div>
@@ -389,11 +362,9 @@
             	
             	
                 
-                <div class="wolf-item wfull wmiddle" 
+                <div class="wolf-item wfull wmiddle" id="family-7" 
 	            style="
 		            opacity: 0.85 !important;
-		        	margin-top: 9vw !important;
-					margin-left: 2vw !important;    
 				">
                 	
                 	<div class="wolf-item-inner">
@@ -402,10 +373,8 @@
             	</div>  
             	
 
-            	<div class="wolf-item " 
+            	<div class="wolf-item " id="family-8" 
 	            style="
-		            margin-top: 6vw !important; 
-			        margin-left: 16vw !important;
 				    opacity: 0.85 !important;
 				">
                 	<div class="wolf-item-inner">
@@ -447,28 +416,21 @@
 		
 		
 		
-		<div class="wrapper-mini" id="graduates-anchor" 
-		style="
-		padding-top: 16vw !important; 
-		text-align: center !important;
-		">
+		<div class="wrapper-mini" id="graduates-anchor" >
             <h6><strong>Graduates</strong></h6>
 			<p></p>
 		</div> 
 		
 		
 		
-		<div class="wrapper" 
-		style="
-			margin-top: 10vw !important;
-		">
+		<div class="wrapper portraits-wrappers"> 
             <div class="wolf-grid clearfix" data-randomhorizontaloffset="true" data-mouseparallax="true">
 				
 				
 				
 				<div class="wolf-item wfull"
 				style="
-					opacity: 0.85 !important;
+					opacity: 0.75 !important;
 				">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/portraits/graduates-1.jpg" alt="Graduate Portrait Image"></div>
@@ -479,7 +441,7 @@
                 
                 <div class="wolf-item wfull"
 	            style="
-		            opacity: 0.85 !important;
+		            opacity: 0.8 !important;
 			    ">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/portraits/graduates-2.jpg" alt="Graduate Portrait Image"></div>
@@ -500,10 +462,9 @@
             	
                 
 
-                <div class="wolf-item wfull" 
+                <div class="wolf-item wfull" id="grad-4" 
 	            style="
-	            	margin-top: 12vw !important; 
-					opacity: 0.85 !important;
+					opacity: 0.8 !important;
 				">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/portraits/graduates-4.jpg" alt="Graduate Portrait Image"></div>
@@ -513,11 +474,9 @@
             	
             	
                 
-                <div class="wolf-item wfull " 
+                <div class="wolf-item wfull " id="grad-5" 
 	            style="
-		            opacity: 0.85 !important;
-					margin-top: 12vw !important;
-			        margin-left: 2vw !important;
+		            opacity: 0.8 !important;
 			    ">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/portraits/graduates-5.jpg" alt="Graduate Portrait Image"></div>
@@ -526,11 +485,9 @@
                 
                 
                 
-                <div class="wolf-item wfull wmiddle" 
+                <div class="wolf-item wfull wmiddle" id="grad-6" 
 	            style="
-		            opacity: 0.85 !important;
-					margin-top: 2vw !important;
-			        margin-left: 2vw !important;
+		            opacity: 0.8 !important;
 			    ">    
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/portraits/graduates-6.jpg" alt="Graduate Portrait Image"></div>
@@ -539,11 +496,9 @@
             	
             	
                 
-                <div class="wolf-item wfull wmiddle" 
+                <div class="wolf-item wfull wmiddle" id="grad-7" 
 	            style="
-		            opacity: 0.85 !important;
-		        	margin-top: 9vw !important;
-					margin-left: 2vw !important;    
+		            opacity: 0.8 !important;
 				">
                 	
                 	<div class="wolf-item-inner">
@@ -566,21 +521,14 @@
 		
 		
 		
-		<div class="wrapper-mini" id="lifestyle-anchor" 
-		style="
-		padding-top: 16vw !important; 
-		text-align: center !important;
-		">
+		<div class="wrapper-mini" id="lifestyle-anchor">
             <h6><strong>Lifestyle</strong></h6>
 			<p></p>
 		</div> 
 		
 		
 		
-		<div class="wrapper" 
-		style="
-			margin-top: 10vw !important;
-		">
+		<div class="wrapper portraits-wrappers">
             <div class="wolf-grid clearfix" data-randomhorizontaloffset="true" data-mouseparallax="true">
 				
 				
@@ -619,7 +567,7 @@
             	
                 
 
-                <div class="wolf-item wfull" 
+                <div class="wolf-item wfull" id="life-4" 
 	            style="
 	            	margin-top: 12vw !important; 
 					opacity: 0.85 !important;
@@ -632,11 +580,9 @@
             	
             	
                 
-                <div class="wolf-item wfull " 
+                <div class="wolf-item wfull " id="life-5" 
 	            style="
 		            opacity: 0.85 !important;
-					margin-top: 12vw !important;
-			        margin-left: 2vw !important;
 			    ">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/portraits/lifestyle-5.jpg" alt="Lifestyle Portrait Image"></div>
@@ -645,11 +591,9 @@
                 
                 
                 
-                <div class="wolf-item wfull wmiddle" 
+                <div class="wolf-item wfull wmiddle" id="life-6" 
 	            style="
 		            opacity: 0.85 !important;
-					margin-top: 2vw !important;
-			        margin-left: 2vw !important;
 			    ">    
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/portraits/lifestyle-6.jpg" alt="Lifestyle Portrait Image"></div>
@@ -658,11 +602,9 @@
             	
             	
                 
-                <div class="wolf-item wfull wmiddle" 
+                <div class="wolf-item wfull wmiddle" id="life-7" 
 	            style="
 		            opacity: 0.85 !important;
-		        	margin-top: 9vw !important;
-					margin-left: 2vw !important;    
 				">
                 	
                 	<div class="wolf-item-inner">
@@ -671,11 +613,9 @@
             	</div> 
             	
             	
-            	<div class="wolf-item wfull wmiddle" 
+            	<div class="wolf-item wfull wmiddle" id="life-8" 
 	            style="
 		            opacity: 0.85 !important;
-		        	margin-top: 9vw !important;
-					margin-left: 2vw !important;    
 				">
                 	
                 	<div class="wolf-item-inner">
@@ -697,11 +637,11 @@
 		</div>  
                      
         <!-- Single Pagination -->
-        <div class="wrapper" style="margin-top: 35vw !important; padding-bottom: 60px !important; width: 500px !important; padding-right: 10% !important;" >
+        <div class="wrapper footNav" id="portraits-footNav">
             <ul class="single-pagination">
-                <li class="prev"><a href="portfolio-single-3.html"><img src="img/pink.jpg" alt="prev"><span>Home<br>&#8249;</span></a></li>
+                <li class="prev"><a href="index.html"><img src="img/pink.jpg" alt="prev"><span>   </span></a></li>
                 <li class="backtoworks"><a href="index.html"> </a></li>
-                <li class="next"><a href="thesis.html"><img src="img/weddings/0b.jpg" alt="next"><span>Wedding<br>Photography &#8250;</span></a></li>
+                <li class="next"><a href="weddings.html"><img src="img/weddings/0b.jpg" alt="next"><span>Wedding<br>Photography &#8250;</span></a></li>
             </ul>
         </div>
         <!-- Single Pagination -->       
@@ -710,11 +650,11 @@
 	<!-- PAGEBODY -->
     
     <!-- FOOTER -->  
-    <footer>
-        <div class="footer-inner align-center wrapper" style="margin-top: 2vw !important;">
+    <footer class="backFooter">
+        <div class="footer-inner align-center wrapper">
             
             
-            <a style="text-align: center !important; left: 51% !important;" id="backtotop" href="#">Back To Top</a>
+            <a class="backtotop" id="backtotop" href="#">Back To Top</a>
         </div>
     </footer>
     <!-- FOOTER -->

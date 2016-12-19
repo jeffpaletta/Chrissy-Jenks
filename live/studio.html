@@ -25,6 +25,7 @@
 <link rel="stylesheet" id="fontawesome-style-css" href="css/font-awesome.min.css" type="text/css" media="all" />
 <link rel="stylesheet" id="ionic-icons-style-css" href="css/ionicons.css" type="text/css" media="all" />
 <link rel="stylesheet" id="mqueries-style-css"  href="css/mqueries.css" type="text/css" media="all" />
+<link rel="stylesheet" id="layout-style-css"  href="css/layouts.css" type="text/css" media="all" />
 <!-- CSS -->
 
 <!-- FAVICON -->
@@ -38,7 +39,7 @@
 <!-- PAGELOADER -->
 <div id="page-loader">
 	<div class="page-loader-inner">
-		<div class="loader"><strong>...</strong></div>
+		<div class="loader"><strong>one sec</strong></div>
 	</div>
 </div>
 <!-- PAGELOADER -->
@@ -63,12 +64,12 @@
             	<nav id="main-nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="portraits.html.html">Portraits</a>
+						<li><a href="portraits.html">Portraits</a>
                         	<ul class="submenu">
-                            	<li><a href="creative.html">Creative</a></li>
-                            	<li><a href="family.html">Family</a></li>
-                            	<li><a href="graduates.html">Graduates</a></li>
-                            	<li><a href="lifestyle.html">Lifestyle</a></li>
+                            	<li><a href="portraits.html#creative-anchor">jump to Creative</a></li>
+                            	<li><a href="portraits.html#family-anchor">jump to Family</a></li>
+                            	<li><a href="portraits.html#graduates-anchor">jump to Graduates</a></li>
+                            	<li><a href="portraits.html#lifestyle-anchor">jump to Lifestyle</a></li>
                             </ul>
                         </li>
                         <li><a href="weddings.html">Weddings</a></li>
@@ -108,7 +109,7 @@
 	   
 	    
     <!-- HERO  -->
-	<section id="hero" class="hero-auto" style="margin-top: 6vw !important;">
+	<section id="hero" class="hero-auto studio-hero">
     	<div class="page-title wrapper">
         
         	<div id="wolf-title" class="wolf-grid clearfix">
@@ -116,9 +117,9 @@
 					<div class="wolf-item-inner" style="float: left !important;">
 						<div class="wolf-media"><img style="opacity: 0.8 !important;" src="img/studio/hero3.jpg" alt="Studio Image" /></div>
 						
-						<div class="wolf-caption ctop" style="width:60%; left: 56% !important; margin-top: 5% !important;">
+						<div class="wolf-caption ctop" id="studio-hero-caption">
                             <h1 style="text-align: left !important;"><strong>Studio</strong></h1>
-                            <h5 class="alttitle" style="text-align: left !important; padding-left: 10px !important;">Photography</h5>
+                            <h5 class="alttitle" id="studio-hero-title">Photography</h5>
 							
 						</div>
 					</div>
@@ -140,12 +141,7 @@
     	
     	
     	
-    	<!--CONCEPT STATEMENT-->
-		<div class="wrapper-mini" 
-		style="
-		padding-top: 16vw !important; 
-		text-align: center !important;
-		">
+		<div class="wrapper-mini" id="studio-anchor">
             <h6><strong>Works</strong></h6>
 			<p></p>
 		</div> 
@@ -153,10 +149,7 @@
 		
 		
         
-		<div class="wrapper" 
-		style="
-		margin-top: 10vw !important;
-		">
+		<div class="wrapper" id="studio-wrapper">
             <div class="wolf-grid clearfix" data-randomhorizontaloffset="true" data-mouseparallax="true">
 				
 				
@@ -204,10 +197,8 @@
             	
             	
                 
-                <div class="wolf-item wfull " 
+                <div class="wolf-item wfull " id="studio-5" 
 	            style="opacity: 0.85 !important;
-		        margin-top: 12vw !important;
-			        margin-left: 2vw !important;
 			    ">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/studio/studio-5.jpg" alt="Studio Image"></div>
@@ -216,10 +207,8 @@
                 
                 
                 
-                <div class="wolf-item wfull wmiddle" 
+                <div class="wolf-item wfull wmiddle" id="studio-6" 
 	            style="opacity: 0.85 !important;
-		        margin-top: 2vw !important;
-			        margin-left: 2vw !important;
 			    ">    
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/studio/studio-6.jpg" alt="Studio Image"></div>
@@ -228,10 +217,8 @@
             	
             	
                 
-                <div class="wolf-item wfull wmiddle" 
+                <div class="wolf-item wfull wmiddle" id="studio-7" 
 	            style="opacity: 0.85 !important;
-		        margin-top: 9vw !important;
-			    margin-left: 2vw !important;    
 				">
                 	
                 	<div class="wolf-item-inner">
@@ -254,11 +241,11 @@
 		</div>  
                      
         <!-- Single Pagination -->
-        <div class="wrapper" style="margin-top: 35vw !important; padding-bottom: 60px !important; width: 500px !important; padding-right: 10% !important;" >
+        <div class="wrapper footNav">
             <ul class="single-pagination">
-                <li class="prev"><a href="portfolio-single-3.html"><img src="img/weddings/0a.jpg" alt="prev"><span>&#8249; Weddings</span></a></li>
+                <li class="prev"><a href="portfolio-single-3.html"><img src="img/weddings/0a.jpg" alt="prev"><span>&#8249; Wedding<br>Photography</span></a></li>
                 <li class="backtoworks"><a href="index.html"> </a></li>
-                <li class="next"><a href="thesis.html"><img src="img/thesis/0c.jpg" alt="next"><span>Thesis &#8250;</span></a></li>
+                <li class="next"><a href="thesis.html"><img src="img/thesis/0c.jpg" alt="next"><span>Bachelor's<br>Thesis &#8250;</span></a></li>
             </ul>
         </div>
         <!-- Single Pagination -->       
@@ -266,18 +253,21 @@
  	</section>
 	<!-- PAGEBODY -->
     
+    
+    
+    
     <!-- FOOTER -->  
-    <footer>
-        <div class="footer-inner align-center wrapper" style="margin-top: 2vw !important;">
-            
-            
-            <a style="text-align: center !important; left: 51% !important;" id="backtotop" href="#">Back To Top</a>
+    <footer class="backFooter">
+        <div class="footer-inner align-center wrapper">
+            <a class="backtotop" id="backtotop" href="#">Back To Top</a>
         </div>
     </footer>
-    <!-- FOOTER -->
     
-</div> <!-- END #page-content -->
-<!-- PAGE CONTENT -->
+</div> 
+
+
+
+
 
 <!-- SCRIPTS -->
 <script src="js/jquery-2.1.4.min.js"></script>

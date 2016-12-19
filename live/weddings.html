@@ -5,19 +5,17 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
 <head>
 
-<!-- DEFAULT META TAGS -->
+<!-- META TAGS -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Weddings :: Chrissy Jenks</title>
-<!-- DEFAULT META TAGS -->
+<title>Chrissy Jenks :: Weddings</title>
 
 <!-- FONTS -->
 <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Maven+Pro:400,700,900" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet" type="text/css">
-<!-- FONTS -->
 
 <!-- CSS -->
 <link rel="stylesheet" id="default-style-css"  href="css/style.css" type="text/css" media="all" />
@@ -25,11 +23,10 @@
 <link rel="stylesheet" id="fontawesome-style-css" href="css/font-awesome.min.css" type="text/css" media="all" />
 <link rel="stylesheet" id="ionic-icons-style-css" href="css/ionicons.css" type="text/css" media="all" />
 <link rel="stylesheet" id="mqueries-style-css"  href="css/mqueries.css" type="text/css" media="all" />
-<!-- CSS -->
+<link rel="stylesheet" id="layout-style-css"  href="css/layouts.css" type="text/css" media="all" />
 
 <!-- FAVICON -->
 <link rel="shortcut icon" href="assets/uploads/favicon.png"/>
-<!-- FAVICON -->
 
 </head>
 
@@ -38,22 +35,22 @@
 <!-- PAGELOADER -->
 <div id="page-loader">
 	<div class="page-loader-inner">
-		<div class="loader"><strong>...</strong></div>
+		<div class="loader"><strong>one sec</strong></div>
 	</div>
 </div>
-<!-- PAGELOADER -->
+
+
 
 <!-- PAGE CONTENT -->
 <div id="page-content">
+	
+	
 
 	<!-- HEADER -->
-	<header id="header" style="padding-bottom: 10vw !important;">        
+	<header id="header" class="weddings-header">        
 		<div class="header-inner clearfix">
 			
-            <div id="logo" class="left-float">
-<!--                 <a id="dark-logo" class="logotype" href="index.html"><img src="files/uploads/logo-avoc-dark.png" srcset="files/uploads/logo-avoc-dark.png 1x, files/uploads/logo-avoc-dark@2x.png 2x" alt="Logo"></a> -->
-<!--                 <a id="light-logo" class="logotype" href="index.html"><img src="files/uploads/logo-avoc-light.png" srcset="files/uploads/logo-avoc-light.png 1x, files/uploads/logo-avoc-light@2x.png 2x" alt="Logo"></a> -->
-            </div>
+            <div id="logo" class="left-float"></div>	<!-- Removed -->
             
             <div id="menu" class="right-float clearfix">
                 <a href="#" class="open-nav"><span class="hamburger"></span><span class="text"></span></a>
@@ -61,12 +58,12 @@
             	<nav id="main-nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="portraits.html.html">Portraits</a>
+						<li><a href="portraits.html">Portraits</a>
                         	<ul class="submenu">
-                            	<li><a href="creative.html">Creative</a></li>
-                            	<li><a href="family.html">Family</a></li>
-                            	<li><a href="graduates.html">Graduates</a></li>
-                            	<li><a href="lifestyle.html">Lifestyle</a></li>
+                            	<li><a href="portraits.html#creative-anchor">jump to Creative</a></li>
+                            	<li><a href="portraits.html#family-anchor">jump to Family</a></li>
+                            	<li><a href="portraits.html#graduates-anchor">jump to Graduates</a></li>
+                            	<li><a href="portraits.html#lifestyle-anchor">jump to Lifestyle</a></li>
                             </ul>
                         </li>
                         <li class="current-menu-item"><a href="weddings.html">Weddings</a></li>
@@ -93,45 +90,31 @@
                     <ul class="share socialmedia-widget">
                         <li class="facebook"><a href="#"></a></li>
                         <li class="twitter"><a href="#"></a></li>
-                        <li class="googleplus"><a href="#"></a></li>
                         <li class="pinterest"><a href="#"></a></li>
                     </ul>
                 </div>
             </div> 
                                 
-		</div> <!-- END .header-inner -->
+		</div> 
 	</header>
-	<!-- HEADER -->   
 	
 	
 	
 	
-	
-	 
-	    
-	<!-- HERO  -->
-<!--
-	<section id="hero" class="hero-full parallax-section" data-parallax-image="img/weddings/hero4.jpg" style="margin-left: : 100px !important;">
-    	<div class="page-title" >
-            <h1 ><strong style="color: #000000 !important">Weddings</strong></h1>
-    	</div>
-        <a id="scroll-down" href="#">Scroll Down</a>
-    </section>
--->
-    <!-- HERO --> 
+
     
    <!-- HERO  -->
-	<section id="hero" class="hero-auto" style="margin-top: 6vw !important;">
+	<section id="hero" class="hero-auto weddings-hero">
     	<div class="page-title wrapper">
         
         	<div id="wolf-title" class="wolf-grid clearfix">
                 <div class="wolf-item wfull wright wolf-text" data-speed="2">
 					<div class="wolf-item-inner" style="float: right !important;">
-						<div class="wolf-media"><img style="padding-right: 90px !important;" src="img/weddings/0b.jpg" alt="Studio Image" /></div>
+						<div class="wolf-media"><img id="weddings-hero-image" style="opacity: 0.8 !important;" src="img/weddings/0b.jpg" alt="Wedding Hero Image" /></div>
 						
-						<div class="wolf-caption ctop" style="width:60%; left: 0 !important; margin-top: 5% !important;">
+						<div class="wolf-caption ctop" id="weddings-hero-caption">
                             <h1 style="text-align: left !important;"><strong>Wedding</strong></h1>
-                            <h5 class="alttitle" style="text-align: left !important; padding-left: 41% !important;">Photography</h5>
+                            <h5 class="alttitle" id="weddings-hero-title">Photography</h5>
 							
 						</div>
 					</div>
@@ -150,15 +133,22 @@
                
 	<!-- PAGEBODY -->
 	<section id="page-body">
+		
+		
+		
+		<div class="wrapper-mini" id="weddings-anchor">
+            <h6><strong>Works</strong></h6>
+		</div> 
+		
+		
+		
+		
         
-		<div class="wrapper" 
-		style="
-			margin-top: 15vw !important;
-		">
+		<div class="wrapper" id="weddings-wrapper" >
             <div class="wolf-grid clearfix" data-randomhorizontaloffset="true" data-mouseparallax="true">
 				
 				
-				<div class="wolf-item wfull">
+                <div class="wolf-item wfull" style="opacity: 0.85 !important;">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/1.jpg" alt="SEO NAME"></div>
 					</div> 
@@ -166,7 +156,7 @@
             	
             	
                 
-                <div class="wolf-item wfull">
+                <div class="wolf-item wfull" style="opacity: 0.85 !important;">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/2.jpg" alt="SEO NAME"></div>
 					</div> 
@@ -174,7 +164,7 @@
             	
             	
                 
-                <div class="wolf-item wfull">
+                <div class="wolf-item wfull" style="opacity: 0.85 !important;">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/3.jpg" alt="SEO NAME"></div>
 					</div> 
@@ -182,7 +172,7 @@
             	
             	
                 
-                <div class="wolf-item wfull">
+                <div class="wolf-item wfull" id="wed-4" style="opacity: 0.85 !important;">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/4.jpg" alt="SEO NAME"></div>
 					</div> 
@@ -190,7 +180,7 @@
             	
             	
                 
-                <div class="wolf-item wfull">
+                <div class="wolf-item wfull" style="opacity: 0.85 !important;">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/5.jpg" alt="SEO NAME"></div>
 					</div> 
@@ -198,7 +188,7 @@
             	
             	
                 
-                <div class="wolf-item wfull">
+                <div class="wolf-item wfull" id="wed-6" style="opacity: 0.85 !important;">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/6b.png" alt="SEO NAME"></div>
 					</div> 
@@ -206,7 +196,7 @@
             	
             	
                 
-                <div class="wolf-item wfull">
+                <div class="wolf-item wfull" id="wed-7" style="opacity: 0.85 !important;">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/7b.jpg" alt="SEO NAME"></div>
 					</div> 
@@ -214,7 +204,7 @@
             	
             	
             	
-            	<div class="wolf-item wfull">
+                <div class="wolf-item " style="opacity: 0.85 !important;">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/8.jpg" alt="SEO NAME"></div>
 					</div> 
@@ -222,7 +212,7 @@
             	
             	
             	
-            	<div class="wolf-item wfull">
+                <div class="wolf-item wfull" style="opacity: 0.85 !important;">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/9.png" alt="SEO NAME"></div>
 					</div> 
@@ -230,7 +220,7 @@
             	
             	
             	
-            	<div class="wolf-item wfull">
+                <div class="wolf-item wfull" style="opacity: 0.85 !important;">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/10.jpg" alt="SEO NAME"></div>
 					</div> 
@@ -240,8 +230,7 @@
             	
             	<div class="wolf-item wfull" 
 	            style="
-		            padding-left: 70px !important; 
-			        padding-top: 80px !important;
+		            opacity: 0.85 !important;
 				">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/11.jpeg" alt="SEO NAME"></div>
@@ -250,7 +239,7 @@
             	
             	
             	
-            	<div class="wolf-item wfull">
+                <div class="wolf-item wfull" style="opacity: 0.85 !important;">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/12.jpg" alt="SEO NAME"></div>
 					</div> 
@@ -258,9 +247,9 @@
             	
             	
             	
-            	<div class="wolf-item wfull" 
+            	<div class="wolf-item wfull" id="wed-13" 
 	            style="
-		            padding-top: 6vw !important;
+	            	opacity: 0.85 !important;
 			    ">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/13.jpg" alt="SEO NAME"></div>
@@ -269,9 +258,9 @@
             	
             	
             	
-            	<div class="wolf-item wfull" 
+            	<div class="wolf-item wfull" id="wed-14" 
 	            style="
-		        	margin-top: -20vw !important;
+		            opacity: 0.85 !important;
 		        ">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/14.jpg" alt="SEO NAME"></div>
@@ -280,7 +269,7 @@
             	
             	
             	
-            	<div class="wolf-item wfull">
+                <div class="wolf-item wfull" id="wed-16" style="opacity: 0.85 !important;">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/16c.jpg" alt="SEO NAME"></div>
 					</div> 
@@ -288,7 +277,7 @@
             	
             	
             	
-            	<div class="wolf-item wfull">
+                <div class="wolf-item wfull" id="wed-15" style="opacity: 0.85 !important;">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/15b.png" alt="SEO NAME"></div>
 					</div> 
@@ -296,9 +285,9 @@
             	
             	
             	
-            	<div class="wolf-item wfull" 
+                <div class="wolf-item wfull" id="wed-17"
 	            style="
-		        	margin-top: 5vw !important;
+	            opacity: 0.85 !important;
 			    ">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/17.png" alt="SEO NAME"></div>
@@ -307,7 +296,7 @@
             	
             	
             	
-            	<div class="wolf-item wfull">
+                <div class="wolf-item wfull" id="wed-18" style="opacity: 0.85 !important;">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/18.jpg" alt="SEO NAME"></div>
 					</div> 
@@ -315,9 +304,9 @@
             	
             	
             	
-            	<div class="wolf-item wfull" 
+            	<div class="wolf-item wfull" id="wed-19" 
 	            style="
-		        	margin-top: 12vw !important;
+		            opacity: 0.85 !important;
 			    ">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/19.jpg" alt="SEO NAME"></div>
@@ -326,7 +315,7 @@
             	
             	
             	
-            	<div class="wolf-item wfull">
+                <div class="wolf-item wfull" id="wed-20" style="opacity: 0.85 !important;">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/20.jpg" alt="SEO NAME"></div>
 					</div> 
@@ -334,7 +323,7 @@
             	
             	
             	
-            	<div class="wolf-item wfull">
+                <div class="wolf-item wfull" id="wed-21" style="opacity: 0.85 !important;">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/weddings/21.jpg" alt="SEO NAME"></div>
 					</div> 
@@ -346,11 +335,11 @@
 		</div>  
                      
         <!-- Single Pagination -->
-        <div class="wrapper" style="margin-top: 35vw !important; padding-bottom: 60px !important; width: 500px !important; padding-right: 10% !important;" >
+        <div class="wrapper footNav">
             <ul class="single-pagination">
-                <li class="prev"><a href="portfolio-single-3.html"><img src="img/studio/hero2.jpg" alt="prev"><span>&#8249; Studio</span></a></li>
+                <li class="prev"><a href="portraits.html"><img src="img/portraits/hero1.jpg" alt="prev"><span>&#8249; Portrait<br>Photography</span></a></li>
                 <li class="backtoworks"><a href="index.html"> </a></li>
-                <li class="next"><a href="thesis.html"><img src="img/thesis/0c.jpg" alt="next"><span>About &#8250;</span></a></li>
+                <li class="next"><a href="fineart.html"><img src="img/fineart/hero1.jpg" alt="next"><span>Fine Art<br>Photography &#8250;</span></a></li>
             </ul>
         </div>
         <!-- Single Pagination -->       
@@ -359,11 +348,11 @@
 	<!-- PAGEBODY -->
     
     <!-- FOOTER -->  
-    <footer>
-        <div class="footer-inner align-center wrapper" style="margin-top: 2vw !important;">
+    <footer class="backFooter">
+        <div class="footer-inner align-center wrapper">
             
             
-            <a style="text-align: center !important; left: 51% !important;" id="backtotop" href="#">Back To Top</a>
+            <a class="backtotop" id="backtotop" href="#">Back To Top</a>
         </div>
     </footer>
     <!-- FOOTER -->

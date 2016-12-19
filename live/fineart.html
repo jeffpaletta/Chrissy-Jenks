@@ -25,6 +25,8 @@
 <link rel="stylesheet" id="fontawesome-style-css" href="css/font-awesome.min.css" type="text/css" media="all" />
 <link rel="stylesheet" id="ionic-icons-style-css" href="css/ionicons.css" type="text/css" media="all" />
 <link rel="stylesheet" id="mqueries-style-css"  href="css/mqueries.css" type="text/css" media="all" />
+<link rel="stylesheet" id="layout-style-css"  href="css/layouts.css" type="text/css" media="all" />
+
 <!-- CSS -->
 
 <!-- FAVICON -->
@@ -38,7 +40,7 @@
 <!-- PAGELOADER -->
 <div id="page-loader">
 	<div class="page-loader-inner">
-		<div class="loader"><strong>...</strong></div>
+		<div class="loader"><strong>one sec</strong></div>
 	</div>
 </div>
 <!-- PAGELOADER -->
@@ -50,12 +52,6 @@
 	<header id="header">        
 		<div class="header-inner clearfix">
 			
-<!--
-            <div id="logo" class="left-float">
-                <a id="dark-logo" class="logotype" href="index.html"><img src="files/uploads/logo-avoc-dark.png" srcset="files/uploads/logo-avoc-dark.png 1x, files/uploads/logo-avoc-dark@2x.png 2x" alt="Logo"></a>
-                <a id="light-logo" class="logotype" href="index.html"><img src="files/uploads/logo-avoc-light.png" srcset="files/uploads/logo-avoc-light.png 1x, files/uploads/logo-avoc-light@2x.png 2x" alt="Logo"></a>
-            </div>
--->
             
             <div id="menu" class="right-float clearfix">
                 <a href="#" class="open-nav"><span class="hamburger"></span><span class="text"></span></a>
@@ -63,12 +59,12 @@
             	<nav id="main-nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="portraits.html.html">Portraits</a>
+						<li><a href="portraits.html">Portraits</a>
                         	<ul class="submenu">
-                            	<li><a href="creative.html">Creative</a></li>
-                            	<li><a href="family.html">Family</a></li>
-                            	<li><a href="graduates.html">Graduates</a></li>
-                            	<li><a href="lifestyle.html">Lifestyle</a></li>
+                            	<li><a href="portraits.html#creative-anchor">jump to Creative</a></li>
+                            	<li><a href="portraits.html#family-anchor">jump to Family</a></li>
+                            	<li><a href="portraits.html#graduates-anchor">jump to Graduates</a></li>
+                            	<li><a href="portraits.html#lifestyle-anchor">jump to Lifestyle</a></li>
                             </ul>
                         </li>
                         <li><a href="weddings.html">Weddings</a></li>
@@ -108,17 +104,17 @@
 	   
 	    
     <!-- HERO  -->
-	<section id="hero" class="hero-auto" style="margin-top: 3vw !important; margin-left: 1vw !important;">
+	<section id="hero" class="hero-auto art-hero">
     	<div class="page-title wrapper">
         
         	<div id="wolf-title" class="wolf-grid clearfix">
                 <div class="wolf-item wfull wright wolf-text" data-speed="2">
 					<div class="wolf-item-inner" style="float: right !important;">
-						<div class="wolf-media"><img style="opacity: 0.8 !important; padding-right: 190px !important;" src="img/fineart/hero1.jpg" alt="Studio Image" /></div>
+						<div class="wolf-media"><img id="art-hero-image" style="opacity: 0.8 !important;" src="img/fineart/hero1.jpg" alt="Studio Image" /></div>
 						
-						<div class="wolf-caption ctop" style="width:60%; left: 6.5% !important; margin-top: 37.5% !important;">
-                            <h1 style="text-align: left !important;"><strong>Fine <br>Art</strong></h1>
-                            <h5 class="alttitle" style="text-align: left !important; padding-left: 10px !important;"> </h5>
+						<div class="wolf-caption ctop" id="art-hero-caption">
+                            <h1 style="text-align: left !important;"><strong>Fine <br>  Art</strong></h1>
+                            <h5 class="alttitle" id="art-hero-title"> </h5>
 							
 						</div>
 					</div>
@@ -141,11 +137,7 @@
     	
     	
     	<!--CONCEPT STATEMENT-->
-		<div class="wrapper-mini" 
-		style="
-		padding-top: 16vw !important; 
-		text-align: center !important;
-		">
+		<div class="wrapper-mini" id="art-anchor">
             <h6><strong>Works</strong></h6>
 			<p></p>
 		</div> 
@@ -153,10 +145,7 @@
 		
 		
         
-		<div class="wrapper" 
-		style="
-			margin-top: 10vw !important;
-		">
+		<div class="wrapper" id="art-wrapper">
             <div class="wolf-grid clearfix" data-randomhorizontaloffset="true" data-mouseparallax="true">
 				
 				
@@ -195,9 +184,8 @@
             	
                 
 
-                <div class="wolf-item wfull" 
+                <div class="wolf-item wfull" id="art-4" 
 	            style="
-	            	margin-top: 12vw !important; 
 					opacity: 0.85 !important;
 				">
                 	<div class="wolf-item-inner">
@@ -208,11 +196,9 @@
             	
             	
                 
-                <div class="wolf-item wfull " 
+                <div class="wolf-item wfull " id="art-5" 
 	            style="
 		            opacity: 0.85 !important;
-					margin-top: 12vw !important;
-			        margin-left: 2vw !important;
 			    ">
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/fineart/art-5.jpg" alt="Fine Art Image"></div>
@@ -221,11 +207,9 @@
                 
                 
                 
-                <div class="wolf-item wfull wmiddle" 
+                <div class="wolf-item wfull wmiddle" id="art-6"
 	            style="
 		            opacity: 0.85 !important;
-					margin-top: 2vw !important;
-			        margin-left: 2vw !important;
 			    ">    
                 	<div class="wolf-item-inner">
 						<div class="wolf-media portfolio-media"><img src="img/fineart/art-6.jpg" alt="Fine Art Image"></div>
@@ -234,11 +218,9 @@
             	
             	
                 
-                <div class="wolf-item wfull wmiddle" 
+                <div class="wolf-item wfull wmiddle" id="art-7" 
 	            style="
 		            opacity: 0.85 !important;
-		        	margin-top: 9vw !important;
-					margin-left: 2vw !important;    
 				">
                 	
                 	<div class="wolf-item-inner">
@@ -247,10 +229,8 @@
             	</div>  
             	
 
-            	<div class="wolf-item " 
+            	<div class="wolf-item " id="art-8" 
 	            style="
-		            margin-top: 6vw !important; 
-			        margin-left: 16vw !important;
 				    opacity: 0.85 !important;
 				">
                 	<div class="wolf-item-inner">
@@ -275,30 +255,29 @@
 		</div>  
                      
         <!-- Single Pagination -->
-        <div class="wrapper" style="margin-top: 35vw !important; padding-bottom: 60px !important; width: 500px !important; padding-right: 10% !important;" >
+        <div class="wrapper footNav">
             <ul class="single-pagination">
-                <li class="prev"><a href="portfolio-single-3.html"><img src="img/weddings/0b.jpg" alt="prev"><span>Wedding<br>Photography<br>&#8249;</span></a></li>
+                <li class="prev"><a href="weddings.html"><img src="img/weddings/0b.jpg" alt="prev"><span>Wedding<br>Photography<br>&#8249;</span></a></li>
                 <li class="backtoworks"><a href="index.html"> </a></li>
-                <li class="next"><a href="thesis.html"><img src="img/studio/hero1.jpg" alt="next"><span>Studio<br>Photography &#8250;</span></a></li>
+                <li class="next"><a href="studio.html"><img src="img/studio/hero1.jpg" alt="next"><span>Studio<br>Photography &#8250;</span></a></li>
             </ul>
         </div>
-        <!-- Single Pagination -->       
-        
  	</section>
-	<!-- PAGEBODY -->
+ 	
+ 	
+ 	
     
     <!-- FOOTER -->  
-    <footer>
-        <div class="footer-inner align-center wrapper" style="margin-top: 2vw !important;">
-            
-            
-            <a style="text-align: center !important; left: 51% !important;" id="backtotop" href="#">Back To Top</a>
+    <footer class="backFooter">
+        <div class="footer-inner align-center wrapper">
+            <a class="backtotop" id="backtotop" href="#">Back To Top</a>
         </div>
     </footer>
-    <!-- FOOTER -->
     
-</div> <!-- END #page-content -->
-<!-- PAGE CONTENT -->
+</div> 
+
+
+
 
 <!-- SCRIPTS -->
 <script src="js/jquery-2.1.4.min.js"></script>
