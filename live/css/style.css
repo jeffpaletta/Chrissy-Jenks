@@ -615,6 +615,10 @@ p pre,p code {
 	text-align:right;
 }
 
+.align-left {
+	text-align:left;
+}
+
 .text-light {
 	color:#fff;
 }
